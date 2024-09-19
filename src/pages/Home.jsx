@@ -11,6 +11,7 @@ import {
 } from "lucide-react";
 import ServiceCard from "../components/ServiceCard";
 import InnovativeCarousel from "../components/Carrusel";
+import StatsWidget from "../components/Icons";
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       <InnovativeCarousel />
 
       {/* Services Section */}
-      <section className="py-10 sm:py-20 bg-gray-100">
+      <section className="py-10 sm:py-20 bg-red-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 text-red-600">
             Nos Services
@@ -55,7 +56,7 @@ export default function Home() {
       </section>
 
       {/* About Us Section */}
-      <section className="py-10 sm:py-20">
+      <section className="py-10 sm:py-20 bg-red-50">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
@@ -87,10 +88,11 @@ export default function Home() {
             </div>
           </div>
         </div>
+        <StatsWidget />
       </section>
 
       {/* Key Features Section */}
-      <section className="py-10 sm:py-20 bg-gray-100">
+      <section className="py-10 sm:py-20 bg-red-50">
         <div className="container mx-auto px-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 text-red-600">
             Pourquoi Nous Choisir

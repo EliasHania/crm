@@ -35,7 +35,7 @@ export default function Team() {
   ];
 
   return (
-    <div className="py-10 sm:py-20">
+    <div className="py-10 bg-red-50 sm:py-20">
       <div className="container mx-auto px-4">
         <h1 className="text-3xl sm:text-4xl font-bold text-center mb-8 sm:mb-12 text-red-600">
           Notre Équipe Médicale
