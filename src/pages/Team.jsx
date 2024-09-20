@@ -5,32 +5,32 @@ export default function Team() {
     {
       name: "Dr. Amina Benali",
       role: "Cardiologue",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/logo2.webp",
     },
     {
       name: "Dr. Karim Tazi",
       role: "Médecin Généraliste",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/logo2.webp",
     },
     {
       name: "Dr. Fatima Zohra",
       role: "Pédiatre",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/logo2.webp",
     },
     {
       name: "Dr. Hassan El Amrani",
       role: "Chirurgien",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/logo2.webp",
     },
     {
       name: "Dr. Leila Mansouri",
       role: "Neurologue",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/logo2.webp",
     },
     {
       name: "Dr. Youssef Alaoui",
       role: "Orthopédiste",
-      image: "/placeholder.svg?height=200&width=200",
+      image: "/logo2.webp",
     },
   ];
 
