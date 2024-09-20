@@ -12,6 +12,7 @@ import {
 import ServiceCard from "../components/ServiceCard";
 import InnovativeCarousel from "../components/Carrusel";
 import StatsWidget from "../components/Icons";
+import Map from "../components/Map";
 
 export default function Home() {
   return (
@@ -128,6 +129,37 @@ export default function Home() {
               <h3 className="text-xl font-semibold mb-2">Disponibilité 24/7</h3>
               <p className="text-gray-600">
                 Services d'urgence disponibles à tout moment
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Map Section */}
+      <section className="py-10 sm:py-20 bg-white">
+        <div className="container mx-auto px-4">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 sm:mb-12 text-red-600">
+            Notre Emplacement
+          </h2>
+          <div className="flex flex-col md:flex-row items-center gap-8">
+            <div className="md:w-1/2">
+              <Map className="rounded-lg shadow-lg" />
+            </div>
+            <div className="md:w-1/2">
+              <h3 className="text-xl sm:text-2xl font-semibold mb-4 text-red-600">
+                Au Cœur de Tétouan
+              </h3>
+              <p className="text-gray-700 mb-4">
+                La Clinique CRM Princess Lalla Malika est idéalement située au
+                centre de Tétouan, offrant un accès facile à tous nos patients.
+                Notre emplacement stratégique nous permet de servir efficacement
+                la communauté locale et les régions environnantes.
+              </p>
+              <div className="flex items-center mb-4"></div>
+              <p className="text-gray-700">
+                Que vous veniez pour une consultation, une urgence ou une
+                visite, notre clinique est facilement accessible par les
+                transports en commun et dispose d'un parking pour votre confort.
               </p>
             </div>
           </div>

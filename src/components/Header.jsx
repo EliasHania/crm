@@ -48,12 +48,12 @@ export default function Header() {
   return (
     <>
       <header
-        className={`bg-gradient-to-r from-red-600 to-red-700 shadow-lg transition-all duration-500 ease-in-out transform ${
+        className={`bg-gradient-to-r from-red-600 to-red-700 shadow-lg transition-all duration-500 ease-in-out fixed top-0 left-0 right-0 z-40 ${
           isSticky
             ? isScrollingUp
-              ? "fixed top-0 left-0 right-0 z-40 translate-y-0" // Mostrar header al hacer scroll hacia arriba
-              : "fixed top-0 left-0 right-0 z-40 -translate-y-full" // Ocultar header al hacer scroll hacia abajo
-            : "relative"
+              ? "translate-y-0"
+              : "-translate-y-full"
+            : "translate-y-0"
         }`}
       >
         <div className="container mx-auto px-4">
@@ -109,6 +109,9 @@ export default function Header() {
           </div>
         </div>
       </header>
+
+      {/* Espacio para compensar el header fijo */}
+      <div className="h-[104px]"></div>
 
       {/* Menú móvil fuera del header */}
       <div
