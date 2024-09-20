@@ -62,7 +62,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-8 md:mb-0">
               <img
-                src="public/image1.jpg"
+                src="/image1.jpg"
                 alt="Hospital"
                 className="rounded-lg shadow-lg"
               />
